@@ -22,6 +22,15 @@ conda activate f5-tts
 
 </details>
 
+> ### Local editable (training, finetuning)
+> 
+> ```bash
+> git clone https://github.com/SWivid/F5-TTS.git
+> cd F5-TTS
+> # git submodule update --init --recursive  # (optional, if need > bigvgan)
+> pip install -e .
+> ```
+
 Trained on 4060 Ti 8GB VRAM</br>
 25989 samples audio length vary from 4s-10second </br>
 
