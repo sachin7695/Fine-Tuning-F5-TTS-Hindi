@@ -34,8 +34,8 @@ from f5_tts.model import DiT, UNetT
 
 # Configuration 
 MODEL_NAME = "F5-TTS-small"
-REF_AUDIO = "/home/cmi_10101/Documents/voice/Hindi/audio_segments/5348024557699928_006.wav"
-REF_TEXT = '''सर्दियो  का फ्रूट  जो है वो लेते है बारिश में बारिश का बारिश में जो फिर नॉन वेजिटेबल्स है जैसे कि  जैसे कि आपका क्या कहते है'''
+REF_AUDIO = "/home/cmi_10101/Documents/voice/F5_TTS/src/f5_tts/ref_audio_text_files/ref_audio_1.wav"
+REF_TEXT = '''हाँ भैया अभी दसेहरी आम में दसेहरी रखें हैं  ओर केले भी हैं हमारे पास अभी मतलब बताइये आपको कित्ते के चाहिए|'''
 CKPT_FILE = "/home/cmi_10101/Documents/voice/F5_TTS/ckpts/model_10000.pt"
 VOCAB_FILE = "/home/cmi_10101/Documents/voice/F5_TTS/data/vocab.txt"
 VOCOS_LOCAL_PATH = "../ckpts/vocos-mel-24khz"
